@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haris.android.movies.presentation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".AndroidApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".view.activity.MovieListActivity"
+            android:label="@string/activity_title_movie_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat"></activity>
+        <activity
+            android:name=".view.activity.MovieDetailsActivity"
+            android:label="@string/activity_title_movie_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat"></activity>
+        <activity
+            android:name=".view.activity.MovieSearchActivity"
+            android:label="@string/activity_title_movie_search"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowActionBar="false"></activity>
+        <activity
+            android:name=".view.activity.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ccf4ed8d82abe0d6fdb6fc253fd0306e5e77c7b3" />
+    </application>
+
+</manifest>

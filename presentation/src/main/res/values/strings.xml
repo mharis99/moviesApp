@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Movie App</string>
+
+    <string name="activity_title_movie_list">Movies</string>
+    <string name="activity_title_movie_details">Movie Details</string>
+    <string name="activity_title_filter_movie_list">Filter Movies</string>
+    <string name="activity_title_popular_movie_list">Popular Movies</string>
+    <string name="activity_title_popular_top_list">Top Movies</string>
+    <string name="activity_title_movie_search">Movie Search</string>
+
+    <string name="btn_text_load_movies">List Movies</string>
+    <string name="btn_text_filter_movies">Filter Movies</string>
+    <string name="btn_text_popular_movies">Popular Movies</string>
+    <string name="btn_text_top_movies">Top Movies</string>
+    <string name="btn_text_search_movies">Search Movies</string>
+    <string name="btn_text_retry">Retry</string>
+
+    <string name="view_text_original_title">Original Title:</string>
+    <string name="view_text_release_date">Release Date:</string>
+    <string name="view_text_overview">Overview:</string>
+    <string name="view_text_description">Description:</string>
+    <string name="view_text_vote_count">Votes Count:</string>
+    <string name="view_text_vote_average">Vote Average:</string>
+    <string name="view_text_popularity">Popularity:</string>
+    <string name="string_content_description">Non accessible view</string>
+    <string name="copyright_message">Copyright &#169; Muhammad Haris \n mharis99@gmail.com</string>
+
+    //Exception messages
+    <string name="exception_message_generic">There was an application error</string>
+    <string name="exception_message_no_connection">There is no internet connection</string>
+    <string name="exception_message_movie_not_found">Cannot retrieve movie data. Check your internet
+        connection
+    </string>
+    <string name="min_release_year">Min Release Year</string>
+    <string name="max_release_year">Max Release Year</string>
+    <string name="and_text">AND</string>
+
+
+    // Arrays
+    <string-array name="year_array">
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+    </string-array>
+
+
+    <string-array name="side_menu_items">
+        <item>List Movies</item>
+        <item>Filter Movies</item>
+        <item>Popular Movies</item>
+        <item>Top Movies</item>
+        <item>Search Movies</item>
+
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>
